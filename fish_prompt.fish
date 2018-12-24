@@ -19,7 +19,6 @@ function __outrun_toaster_current_folder
   if test $PWD = '/'
     echo -n '/'
   else
-    echo __outrun_toaster_color_pink '⚡ '
     echo -n $PWD | grep -o -E '[^\/]+$'
   end
 end
@@ -34,7 +33,7 @@ end
 
 function __outrun_toaster_rainbow
   if echo $argv[1] | grep -q -e $argv[3]
-    __outrun_toaster_color_echo $argv[2] "░▒░▒"
+    __outrun_toaster_color_echo $argv[2] "彡ミ"
   end
 end
 
@@ -59,7 +58,7 @@ function __outrun_toaster_git_status
 
     if test -n (__outrun_toaster_git_status_codes)
       __outrun_toaster_color_echo $__outrun_toaster_color_pink ' ●'
-      __outrun_toaster_color_echo $__outrun_toaster_color_white ' ⚛'
+      __outrun_toaster_color_echo $__outrun_toaster_color_white ' [^._.^]ﾉ'
       __outrun_toaster_git_status_icons
     else
       __outrun_toaster_color_echo $__outrun_toaster_color_green ' ○'
