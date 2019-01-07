@@ -1,5 +1,5 @@
-# mce-night-theme
+# Electric Toaster
 
-Forked from toaster and using outrun colours
+Forked from [Toaster](https://github.com/wwqrd/toaster-fish-theme) and using [Outrun](https://github.com/samrap/outrun-theme-vscode) colours
 
-![Toaster in action](https://github.com/steeeve/toaster/raw/master/screenshot.png)
+![Electric Toaster in action](https://github.com/jamesmcewan/electric-toaster/raw/master/screenshot.png)
